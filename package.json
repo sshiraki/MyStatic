@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build && mv .vitepress docs/.vitepress",
-    "docs:build": "vitepress build && mv .vitepress docs/.vitepress",
+    "docs:build": "vitepress build",
     "preview": "vitepress preview",
     "start": "npx -y serve .vitepress/dist"
   },
